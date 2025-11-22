@@ -21,7 +21,7 @@
   "scripts": {
     "postinstall": "npm run generate:favicons",
     "dev": "astro dev",
-    "build": "tsx cli build",
+    "build": "astro build",
     "preview": "astro preview",
     "check": "concurrently \"eslint .\" \"astro check\" \"prettier --check .\" -n eslint,astro,prettier -c magenta,red,yellow",
     "format": "prettier --write .",
