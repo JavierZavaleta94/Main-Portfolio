@@ -14,7 +14,7 @@ const props: ComponentProps<typeof MainTemplate> = {
     dateFormat: 'MMMM yyyy',
     theme: 'custom',
     pdf: {
-      path: `${import.meta.env.BASE_URL}javier-resume.pdf`,
+      path: '/javier-resume.pdf',
       label: 'Download resume',
       filename: 'javier-resume.pdf',
     },
@@ -65,7 +65,7 @@ const props: ComponentProps<typeof MainTemplate> = {
     {
       collection: 'references',
       title: 'References',
-      entries: ['al-lemieux'],
+      entries: ['al-lemieux', 'stefan-dindyal'],
     },
     {
       collection: 'achievements',
