@@ -16,7 +16,7 @@ const dev = process.env.NODE_ENV === 'development';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  base: process.env.NODE_ENV === 'production' ? '/javierzavaleta94.github.io' : '/',
+  base: '/javierzavaleta94.github.io/',
   site: 'https://javierzavaleta94.github.io/',
   env: {
     schema: {
